@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Open in Microsoft Edge",
+  "version": "1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "32": "images/icon32.png",
+    "128": "images/icon128.png"
+  },
+  "description": "Open the current page in Microsoft Edge",
+  "browser_action": {
+    "default_title": "Open in Microsoft Edge",
+    "default_icon": {
+      "32": "images/icon32.png"
+    }
+  }
+}
