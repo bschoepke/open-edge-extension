@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Open in Microsoft Edge",
-  "version": "3",
+  "version": "4",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
   "permissions": [
-    "activeTab",
+    "tabs",
     "contextMenus"
   ],
   "icons": {
